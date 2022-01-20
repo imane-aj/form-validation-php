@@ -1,0 +1,65 @@
+*{
+     box-sizing: border-box;
+     margin:0;
+     padding: 0;
+   
+}
+
+body{
+   background-color: #F1F1F3;
+}
+
+h1{
+     font-family: 'STIX Two Math', serif;
+    font-weight: bold;
+    font-size: 62px;
+    color: #999;
+         margin-top: 64px;
+}
+.contact-form{
+     
+     max-width: 500px;
+    margin: 18px auto;
+}
+form input, form textarea{
+     margin-bottom:5px;
+     
+}
+textarea.form-control {
+    height: 126px !important;
+}
+.form-control{
+     font-family: 'STIX Two Math', serif;
+     font-size: 14px;
+}
+form input:not([type='submit']) +i{
+    height:0;
+    position: relative;
+    float: left;
+    top: -33px;
+    left: 9px;
+    color:#999;
+}
+.contact-form input{
+   padding-left:36px;  
+}
+ .contact-form .fa-paper-plane {
+     color: white;
+    display: block;
+    position: relative;
+    top: -32px;
+    left: 7px;
+}
+.contact-form .errorMsg{
+     color:red;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'STIX Two Math', serif;
+     font-size: 13px;
+
+}
+.btn-success {
+     display: block;}
+.alert-success {
+   
+    text-align: center;
+     font-size: 24px;}
